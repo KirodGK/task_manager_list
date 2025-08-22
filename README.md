@@ -32,4 +32,5 @@ docker-compose exec web pytest tests/
 
 Доступ к документации проекта по пути:
 
-http://localhost:8000/docs
+http://localhost:8001/docs
+
