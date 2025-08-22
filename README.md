@@ -1,11 +1,12 @@
-## API реализации базового CRUD на FastApi ##
+## API реализации базового CRUD на FastApi
 
 **Реализованные методы**
-1) create
-2) get
-3) get_list
-4) update
-5) delete
+
+1. create
+2. get
+3. get_list
+4. update
+5. delete
 
 **Технологии**
 
@@ -19,6 +20,14 @@
 
 ```bash
 docker compose up --build -d
+```
+
+**Автотесты**
+
+Для запуска тестов выполните команду:
+
+```bash
+docker-compose exec web pytest tests/
 ```
 
 Доступ к документации проекта по пути:
